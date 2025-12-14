@@ -1,0 +1,149 @@
+
+body {
+    margin:70px 50px;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    /* background: linear-gradient(135deg, #1e1e2f, #2d2d44, #3b3b58); */
+    color: #ffffff;
+    height: 110vh;
+   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('./view-3d-cinema-theatre-room.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+header {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 12px 25px;
+    box-sizing: border-box;
+    z-index: 1000;
+
+     background: rgba(6, 5, 20, 0.15); /* transparency */
+    backdrop-filter: blur(0.2px);
+    -webkit-backdrop-filter: blur(0.1px);
+
+    
+
+}
+
+
+header h3{
+margin:0 20px;
+ }
+
+.myname{
+    margin-left: auto;
+    color: #ffffff;
+    margin:0 20px;
+}
+
+header{
+    width:100%;
+    color: #ffffff;
+    background-color: rgb(39, 34, 57);
+    position: fixed;
+    top:0;
+    padding: 10px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .myname{
+  display: flex;
+   
+    color: white;
+}
+
+.topic h1 {
+    text-align: center;
+     margin:45px 0;
+   color: rgb(227, 229, 234);
+   text-shadow: 0 0 10px rgb(12, 13, 26);
+    text-transform: capitalize;
+}
+
+/* Search Input */
+#movie {
+    width: 320px;
+    padding: 12px 16px;
+    border-radius: 8px;
+    border: 1px solid rgba(11,7,129,0.15);
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px;
+    background: rgba(250, 251, 252, 0.905);
+    box-shadow: 0 8px 24px rgba(11,7,129,0.12), 0 2px 6px rgba(19, 19, 19, 0.45), inset 0 1px 0 rgba(186, 81, 232, 0.02);
+    transition: box-shadow 240ms ease, transform 240ms ease, background 240ms ease;
+}
+
+#movie:focus {
+    box-shadow: 0 12px 40px rgba(194, 146, 218, 0.14), 0 4px 12px rgba(0,0,0,0.55), inset 0 1px 0 rgba(255,255,255,0.03);
+    transform: translateY(-2px);
+    outline: none;
+    background: rgba(255,255,255,0.04);
+}
+
+/* Button Styling */
+button {
+    margin: 35px auto;
+    display: block;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    background: #e32431;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    box-sizing: border-box;
+
+}
+
+button:hover {
+    background: #ff2e3d;
+    transform: scale(1.05);
+}
+
+/* Movie Title */
+#title {
+    margin-top: 25px;
+    font-size: 32px;
+    text-align: center;
+    letter-spacing: 1px;
+    text-shadow: 0 0 10px rgba(25)
+}
+
+#plot{
+margin-top: 10px;
+}
+#poster {
+
+    width: 250px;
+    border-radius: 3px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    align-items: center;
+    display:block;
+    margin:20px auto;
+}
+
+#poster:hover{
+    transform: scale(1.05);
+    transition: 0.2s all linear;
+}
+#imdbRating{
+    color: rgb(45, 239, 229);
+}
